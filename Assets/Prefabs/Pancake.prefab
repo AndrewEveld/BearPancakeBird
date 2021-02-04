@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6648760280430806908}
   - component: {fileID: 6138681962115231105}
   - component: {fileID: -3483565308324073309}
+  - component: {fileID: -6874688791692838224}
   m_Layer: 0
   m_Name: Pancake
   m_TagString: Pancake
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4425600615569518755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 5, z: 0}
+  m_LocalPosition: {x: -5, y: 5, z: 0}
   m_LocalScale: {x: 0.125, y: 0.125, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -131,3 +132,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-6874688791692838224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425600615569518755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b025dac6baeabdc4293b37b95f75ac76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
