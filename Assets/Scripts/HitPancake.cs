@@ -18,8 +18,10 @@ public class HitPancake : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collide");
-        Destroy(collision.gameObject);
+        if (collision.gameObject.tag == "Pancake")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
 }
