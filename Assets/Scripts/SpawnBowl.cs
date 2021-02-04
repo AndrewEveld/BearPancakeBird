@@ -31,7 +31,7 @@ public class SpawnBowl : MonoBehaviour
 
             Instantiate(ball);
             yield return new WaitForSeconds(Random.Range(1f, 1.5f));
-            ball.transform.position = new Vector2(Random.Range(-8, 8), 7);
+            ball.transform.position = new Vector2(Random.Range(-8, 8), 5.5f);
 
         }
     }
