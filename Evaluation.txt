@@ -1,0 +1,17 @@
+Our game is a simple dodge-and-catch 2D game where the player (a bear) must catch as many pancakes falling from the 
+sky while also avoiding falling bowling balls. There is not much narrative structure to be said, as the game is the same 
+all the way through. While there is no end goal, there is a score counter so that the player has a way of knowing how
+well they are doing. The player moves the bear with their mouse as the pancakes and bowling balls fall in random locations
+at the top of the screen at random times. All art used was created by others, and links to the art can be found below. 
+It was very rewarding to be able to see a script or game mechanic working properly after struggling with it for a while,
+such was the case with having the pancakes and bowling balls spawn in random locations. 
+
+Attributions:
+Background - https://opengameart.org/content/bevouliin-free-mountain-game-background
+Pancake - https://www.cleanpng.com/png-pancake-android-p-pixel-2-pixel-art-color-by-numbe-1722375/download-png.html
+Bear Picture: https://opengameart.org/content/bear-0
+Bowling ball picture: https://creazilla.com/nodes/79396-bowling-ball-clipart
+
+Code help:
+Random location: https://answers.unity.com/questions/1470684/how-to-change-position-of-gameobject.html
+Differentiate through tags: https://answers.unity.com/questions/414213/c-destroy-tag-on-collision.html
