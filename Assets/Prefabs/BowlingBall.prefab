@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8278211270426222121}
   - component: {fileID: 8278211270426222122}
   - component: {fileID: -1074890478324704281}
+  - component: {fileID: 2283417930206293361}
   m_Layer: 0
   m_Name: BowlingBall
-  m_TagString: Untagged
+  m_TagString: BowlingBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8278211270426222123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 5, z: 0}
+  m_LocalPosition: {x: -7, y: 7, z: 0}
   m_LocalScale: {x: 0.16298173, y: 0.1629817, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -132,5 +133,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cff8cb2669b8ed34794f9380764ea9e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2283417930206293361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8278211270426222123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169bab992f82240e9a9cfcaa71230b8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

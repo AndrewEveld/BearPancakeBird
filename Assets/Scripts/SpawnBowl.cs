@@ -11,6 +11,7 @@ public class SpawnBowl : MonoBehaviour
     {
         
         StartCoroutine("DropBall");
+
     }
 
     // Update is called once per frame
@@ -29,8 +30,8 @@ public class SpawnBowl : MonoBehaviour
 
 
             Instantiate(ball);
-            yield return new WaitForSeconds(Random.Range(.5f, 1f));
-            ball.transform.position = new Vector2(Random.Range(-8, 8), 5);
+            yield return new WaitForSeconds(Random.Range(1f, 1.5f));
+            ball.transform.position = new Vector2(Random.Range(-8, 8), 7);
 
         }
     }

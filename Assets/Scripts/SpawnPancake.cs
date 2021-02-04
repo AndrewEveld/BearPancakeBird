@@ -32,8 +32,8 @@ public class SpawnPancake : MonoBehaviour
 
 
             Instantiate(pancake);
-            yield return new WaitForSeconds(Random.Range(.25f,.75f));
-            pancake.transform.position = new Vector2(Random.Range(-8, 8), 5);
+            yield return new WaitForSeconds(Random.Range(.5f,1f));
+            pancake.transform.position = new Vector2(Random.Range(-8, 8), 10);
 
         }
     }

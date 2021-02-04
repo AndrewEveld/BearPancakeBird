@@ -21,6 +21,7 @@ public class HitPancake : MonoBehaviour
         if (collision.gameObject.tag == "Pancake")
         {
             Destroy(collision.gameObject);
+            GameManager.Instance.IncrementScore(1);
         }
     }
 
